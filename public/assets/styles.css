@@ -1,8 +1,9 @@
 body,
-html, .MainPanel {
+html{
 	overflow-x: hidden;
 	width: 100%;
 	height: 100%;
 	margin: 0;
     padding: 0;
+    background-color: #222;
 }

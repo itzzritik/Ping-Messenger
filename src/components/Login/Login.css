@@ -11,16 +11,23 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-color: #fff;
 }
 
 .titleDiv{
+    display: flex;
+    align-items: center;
     width: 100%;
+    height: 60%;
     overflow: hidden;
+    background-color: #fff;
 }
 .title {
+    margin: auto;
+    padding-bottom: calc(2%);
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
-	text-align: center;
+    text-align: center;
     color: #f35626;
     user-select: none;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -36,16 +43,17 @@
 }
 .title .title1{
     font-size: 7rem;
-	font-weight:  var(--weight_bold);
+    font-weight:  var(--weight_bold);
+    line-height: 90px;
 }
 .title .title2{
     font-size: 2.5rem;
+    line-height: 50px;
 	font-weight:  var(--weight_bold);
 }
 
-.loginPanel{
-    position: absolute;
+.loginDiv{
     width: 100%;
-    height: 50%;
-    background-color: '#9C27B0';
+    height: 40%;
+    background-color: rgb(230, 230, 230);
 }

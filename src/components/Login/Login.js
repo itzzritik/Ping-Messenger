@@ -10,7 +10,7 @@ const Login = () => {
                     <span className='title2'>MESSENGER</span>
                 </h1>
             </div>
-            <div className='loginPanel'></div>
+            <div className='loginDiv'></div>
         </div>
     );
 }
