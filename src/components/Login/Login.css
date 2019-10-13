@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap');
 :root {
 	--font_color: #222;
 	--accent: #555;
 	--weight_thin: 200;
 	--weight_normal: 300;
-	--weight_bold: 500;
+	--weight_bold: 400;
 }
 .mainPanel{
     position: absolute;
@@ -19,8 +19,6 @@
 }
 .title {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 4.5rem;
-	font-weight:  var(--weight_normal);
 	letter-spacing: 2px;
 	text-align: center;
     color: #f35626;
@@ -35,4 +33,19 @@
 @keyframes hueRotate {
   from { -webkit-filter: hue-rotate(0deg); }
   to { -webkit-filter: hue-rotate(-360deg); }
+}
+.title .title1{
+    font-size: 7rem;
+	font-weight:  var(--weight_bold);
+}
+.title .title2{
+    font-size: 2.5rem;
+	font-weight:  var(--weight_bold);
+}
+
+.loginPanel{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: '#9C27B0';
 }
